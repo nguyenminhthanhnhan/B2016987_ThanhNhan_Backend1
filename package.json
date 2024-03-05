@@ -2,11 +2,23 @@
   "name": "btweb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon --inspect ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenminhthanhnhan/B2016987_ThanhNhan_Backend1.git"
+  },
+  "author": "Nhan Nguyen",
+  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
     "mongodb": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
